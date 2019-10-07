@@ -1,0 +1,53 @@
+03:00 PM
+03:00 PM
+Creating backup copies of assessor tables (*.txt)...
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\taxpayer.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\appraisal_account.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\sale.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\tax_description.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\tax_account.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\improvement_builtas.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\land_attribute.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\improvement.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\seg_merge.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\improvement_detail.txt
+Connecting to the FTP site.....
+Change directory to the ATS subfolder on the FTP website
+-rw-rw-r--    1 1020     1020     61452589 Oct 07 01:08 appraisal_account.txt
+-rw-rw-r--    1 1020     1020     38309322 Oct 07 01:08 improvement.txt
+-rw-rw-r--    1 1020     1020     43082357 Oct 07 01:08 improvement_builtas.txt
+-rw-rw-r--    1 1020     1020     99145764 Oct 07 01:09 improvement_detail.txt
+-rw-rw-r--    1 1020     1020     21695660 Oct 07 01:09 land_attribute.txt
+-rw-rw-r--    1 1020     1020     66426746 Oct 07 01:09 sale.txt
+-rw-rw-r--    1 1020     1020      7291874 Oct 07 01:09 seg_merge.txt
+-rw-rw-r--    1 1020     1020     58796521 Oct 07 01:10 tax_account.txt
+-rw-rw-r--    1 1020     1020     81963176 Oct 07 01:10 tax_description.txt
+-rw-rw-r--    1 1020     1020     27413259 Oct 07 01:10 taxpayer.txt
+226 Directory send OK.
+Downloading appraisal_account.txt table from FTP site
+Downloading improvement.txt table from FTP site
+Downloading improvement_builtas.txt table from FTP site
+Downloading improvement_detail.txt table from FTP site
+Downloading land_attribute.txt table from FTP site
+Downloading sale.txt table from FTP site
+Downloading seg_merge.txt table from FTP site
+Downloading tax_account.txt table from FTP site
+Downloading tax_description.txt table from FTP site
+Downloading taxpayer.txt table from FTP site
+Closing the FTP connection...
+Assessor tables copy successful!  Check file dates.
+03:02 PM
+Step 2 - Creating new parcels in \\geobase-win\ced\GADS\R2014\R506\Process\data\Pierce_County.gdb... 
+\\geobase-win\ced\GADS\R2014\R506\Process\data\Pierce_County.gdb\TaxParcel Successfully converted:  \\geobase-win\ced\GADS\R2014\R506\Process\data\Pierce_County_FINAL.gdb\TaxParcel
+03:30 PM
+Step 3 - Deleting existing backup and creating new backup of current parcels with today's date... 
+03:30 PM
+Step 4 - Replace current parcels with new parcels (46 files)... 
+03:30 PM
+Step 5 - Count number of parcels... 
+Parcel count: 
+328247
+03:30 PM
+Step 6 - Email link to log file... 
+03:30 PM
+ See Pierce County Open GeoSpatial Data Portal (Beta) for latest parcels - https://gisdata-piercecowa.opendata.arcgis.com/datasets/tax-parcels 

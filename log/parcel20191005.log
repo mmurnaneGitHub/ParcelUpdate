@@ -1,0 +1,140 @@
+06:00 AM
+06:00 AM
+Creating backup copies of assessor tables (*.txt)...
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\taxpayer.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\appraisal_account.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\sale.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\tax_description.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\tax_account.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\improvement_builtas.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\land_attribute.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\improvement.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\seg_merge.txt
+\\fs005\ArcGISStore\data\PierceCounty\AssessorTables\improvement_detail.txt
+Connecting to the FTP site.....
+Change directory to the ATS subfolder on the FTP website
+-rw-rw-r--    1 1020     1020     61452589 Oct 05 01:08 appraisal_account.txt
+-rw-rw-r--    1 1020     1020     38309322 Oct 05 01:08 improvement.txt
+-rw-rw-r--    1 1020     1020     43082357 Oct 05 01:08 improvement_builtas.txt
+-rw-rw-r--    1 1020     1020     99145764 Oct 05 01:09 improvement_detail.txt
+-rw-rw-r--    1 1020     1020     21695660 Oct 05 01:09 land_attribute.txt
+-rw-rw-r--    1 1020     1020     66426746 Oct 05 01:10 sale.txt
+-rw-rw-r--    1 1020     1020      7291874 Oct 05 01:10 seg_merge.txt
+-rw-rw-r--    1 1020     1020     58796971 Oct 05 01:10 tax_account.txt
+-rw-rw-r--    1 1020     1020     81963176 Oct 05 01:11 tax_description.txt
+-rw-rw-r--    1 1020     1020     27413634 Oct 05 01:11 taxpayer.txt
+226 Directory send OK.
+Downloading appraisal_account.txt table from FTP site
+Downloading improvement.txt table from FTP site
+Downloading improvement_builtas.txt table from FTP site
+Downloading improvement_detail.txt table from FTP site
+Downloading land_attribute.txt table from FTP site
+Downloading sale.txt table from FTP site
+Downloading seg_merge.txt table from FTP site
+Downloading tax_account.txt table from FTP site
+Downloading tax_description.txt table from FTP site
+Downloading taxpayer.txt table from FTP site
+Closing the FTP connection...
+Assessor tables copy successful!  Check file dates.
+06:02 AM
+Step 2 - Creating new parcels in \\geobase-win\ced\GADS\R2014\R506\Process\data\Pierce_County.gdb... 
+\\geobase-win\ced\GADS\R2014\R506\Process\data\Pierce_County.gdb\TaxParcel Successfully converted:  \\geobase-win\ced\GADS\R2014\R506\Process\data\Pierce_County_FINAL.gdb\TaxParcel
+06:52 AM
+Step 3 - Deleting existing backup and creating new backup of current parcels with today's date... 
+06:52 AM
+Step 4 - Replace current parcels with new parcels (46 files)... 
+ Volume in drive \\fs005\ArcGISStore is ArcGISStore
+ Volume Serial Number is 009A-9A03
+
+ Directory of \\fs005\ArcGISStore\data\PierceCounty\Pierce_Data.gdb
+
+10/05/2019  06:52 AM    <DIR>          .
+10/05/2019  06:52 AM    <DIR>          ..
+05/27/2015  04:48 PM             4,440 a00000006.freelist
+10/05/2019  06:11 AM         1,720,352 a0000000b.gdbtablx
+10/05/2019  06:48 AM             1,181 a00000003.gdbtable
+10/05/2019  06:50 AM             4,118 a00000004.CatItemsByPhysicalName.atx
+08/08/2015  08:06 AM         7,794,710 a0000000a.APN_Type_Idx.TaxParcelNumber.atx
+10/05/2019  06:08 AM         1,730,592 a0000000a.gdbtablx
+10/05/2019  06:02 AM             4,118 a00000007.CatRelTypesByName.atx
+10/05/2019  06:02 AM             2,055 a00000002.gdbtable
+10/05/2019  06:02 AM             5,152 a00000005.gdbtablx
+10/05/2019  06:52 AM           196,090 a00000004.gdbtable
+10/05/2019  06:02 AM             4,118 a00000007.CatRelTypesByForwardLabel.atx
+08/08/2015  08:09 AM       241,696,790 a0000000b.APN.atx
+10/05/2019  06:50 AM             4,118 a00000006.FDO_UUID.atx
+10/05/2019  06:02 AM             2,504 a00000007.gdbtable
+10/05/2019  06:02 AM                 4 gdb
+10/05/2019  06:12 AM               132 a0000000b.gdbindexes
+10/05/2019  06:50 AM         5,513,238 a0000000e.spx
+10/05/2019  06:52 AM             5,152 a00000004.gdbtablx
+10/05/2019  06:50 AM             5,152 a00000006.gdbtablx
+10/05/2019  06:52 AM             4,118 a00000004.spx
+10/05/2019  06:02 AM               110 a00000001.gdbindexes
+08/08/2015  08:05 AM         5,275,670 a0000000a.spx
+10/05/2019  06:02 AM             4,118 a00000007.CatRelTypesByUUID.atx
+10/05/2019  06:02 AM             4,118 a00000007.CatRelTypesByOriginItemTypeID.atx
+10/05/2019  06:15 AM               196 a0000000c.gdbindexes
+10/05/2019  06:48 AM             4,118 a00000001.TablesByName.atx
+10/05/2019  06:02 AM             4,118 a00000007.CatRelTypesByBackwardLabel.atx
+10/05/2019  06:51 AM               210 a0000000e.gdbindexes
+10/05/2019  06:14 AM        87,916,430 a0000000c.gdbtable
+10/05/2019  06:05 AM         1,664,032 a00000009.gdbtablx
+10/05/2019  06:05 AM        58,248,947 a00000009.gdbtable
+10/05/2019  06:19 AM        27,777,697 a0000000d.gdbtable
+10/05/2019  06:15 AM         9,588,758 a0000000c.TD_Line_Idx.atx
+10/05/2019  06:02 AM             4,118 a00000007.CatRelTypesByDestItemTypeID.atx
+08/08/2015  07:46 AM         8,081,430 a00000009.Imp_APNx.atx
+10/05/2019  06:02 AM             5,152 a00000007.gdbtablx
+10/05/2019  06:02 AM            12,310 a00000005.CatItemTypesByName.atx
+10/05/2019  06:02 AM                42 a00000003.gdbindexes
+10/05/2019  06:02 AM               318 a00000006.gdbindexes
+10/05/2019  06:02 AM             5,152 a00000002.gdbtablx
+10/05/2019  06:08 AM        38,125,977 a0000000a.gdbtable
+10/05/2019  06:48 AM             5,152 a00000001.gdbtablx
+10/05/2019  06:50 AM               847 a00000006.gdbtable
+10/05/2019  06:14 AM         5,954,592 a0000000c.gdbtablx
+10/05/2019  06:05 AM               132 a00000009.gdbindexes
+10/05/2019  06:50 AM             4,118 a00000006.CatRelsByOriginID.atx
+10/05/2019  06:50 AM             4,118 a00000004.FDO_UUID.atx
+10/05/2019  06:48 AM             5,152 a00000003.gdbtablx
+08/08/2015  08:06 AM        21,225,494 a0000000a.APN_Type_Idx.TaxParcelType.atx
+10/05/2019  06:52 AM            29,016 a0000000e.freelist
+10/05/2019  06:02 AM             1,803 a00000005.gdbtable
+10/05/2019  06:52 AM       167,779,097 a0000000e.gdbtable
+10/05/2019  06:50 AM             4,118 a00000004.CatItemsByType.atx
+10/05/2019  06:02 AM             4,118 a00000005.CatItemTypesByParentTypeID.atx
+10/05/2019  06:19 AM         8,343,574 a0000000d.T_APN_Idx.atx
+10/05/2019  06:50 AM             4,118 a00000006.CatRelsByDestinationID.atx
+08/01/2015  07:29 AM         5,271,574 a00000009.spx
+10/05/2019  06:02 AM               602 a00000007.gdbindexes
+10/05/2019  06:11 AM        51,637,377 a0000000b.gdbtable
+10/05/2019  06:19 AM               130 a0000000d.gdbindexes
+10/05/2019  06:51 AM         7,962,646 a0000000e.GDB_8_TaxParcelNumber.atx
+10/05/2019  06:52 AM         1,643,552 a0000000e.gdbtablx
+10/05/2019  06:19 AM         1,720,352 a0000000d.gdbtablx
+10/05/2019  06:08 AM         8,388,630 a0000000a.Imp_APNx.atx
+10/05/2019  06:52 AM               400 timestamps
+10/05/2019  06:02 AM               310 a00000004.gdbindexes
+04/01/2015  10:08 AM        57,094,166 a00000009.TaxParcelNumber.atx
+08/01/2015  07:30 AM         7,786,518 a00000009.APN_Type_Idx.TaxParcelNumber.atx
+10/05/2019  06:05 AM         8,052,758 a00000009.AA_APN_Idx.atx
+10/05/2019  06:02 AM             4,118 a00000005.CatItemTypesByUUID.atx
+10/05/2019  06:02 AM               296 a00000005.gdbindexes
+08/01/2015  07:30 AM        21,213,206 a00000009.APN_Type_Idx.TaxParcelType.atx
+10/05/2019  06:15 AM        28,860,438 a0000000c.TD_APN_Idx.atx
+10/05/2019  06:50 AM             4,118 a00000006.CatRelsByType.atx
+10/05/2019  06:12 AM         8,343,574 a0000000b.TA_APN_Idx.atx
+10/05/2019  06:52 AM            16,728 a00000004.freelist
+10/05/2019  06:48 AM               427 a00000001.gdbtable
+10/05/2019  06:08 AM               128 a0000000a.gdbindexes
+              78 File(s)    906,788,652 bytes
+               2 Dir(s)  9,607,015,802,880 bytes free
+06:53 AM
+Step 5 - Count number of parcels... 
+Parcel count: 
+328247
+06:53 AM
+Step 6 - Email link to log file... 
+06:53 AM
+ See Pierce County Open GeoSpatial Data Portal (Beta) for latest parcels - https://gisdata-piercecowa.opendata.arcgis.com/datasets/tax-parcels 
