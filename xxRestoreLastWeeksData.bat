@@ -10,5 +10,5 @@ Echo Step 1 - Replace current parcels with new parcels (46 files)... >> %LogDir%
  time /T 
 
 Echo Step 2 - Count number of parcels... 
- C:\Python27\ArcGISx6410.4\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\fcCount.py 
+ C:\Python27\ArcGISx6410.7\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\fcCount.py 
  time /T 
