@@ -1,5 +1,5 @@
 :: *****************************************************************************
-:: UpdateParcels.bat  2/22/2017 
+:: UpdateParcels.bat  10/22/2019 for ArcMap 10.7.1 update 
 :: Summary: Update parcel data
 ::
 :: Description: The process to update parcels will use a scheduled task to 
@@ -25,24 +25,24 @@
 
 ::Echo Step 1a - MANUAL METHOD FOR NOW - Downloading parcel data to \\geobase-win\ced\GADS\R2014\R506\Process\data\parcel.zip... >> %LogDir%%theDate%.log
  ::Send standard output (1) & errors (2) to log file
- ::C:\Python27\ArcGISx6410.4\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\Parcel_Download.py 1>>%LogDir%%theDate%.log 2>&1
+ ::C:\Python27\ArcGISx6410.7\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\Parcel_Download.py 1>>%LogDir%%theDate%.log 2>&1
 
  time /T >> %LogDir%%theDate%.log
 
 ::Echo Step 1b - Downloading assesssor tables... >> %LogDir%%theDate%.log
  ::Send standard output (1) & errors (2) to log file
- C:\Python27\ArcGISx6410.4\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\AssessorTable_Download.py 1>>%LogDir%%theDate%.log 2>&1
+ C:\Python27\ArcGISx6410.7\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\AssessorTable_Download.py 1>>%LogDir%%theDate%.log 2>&1
 
  time /T >> %LogDir%%theDate%.log
 
 
 Echo Step 2 - Creating new parcels in \\geobase-win\ced\GADS\R2014\R506\Process\data\Pierce_County.gdb... >> %LogDir%%theDate%.log
  :: Set up assessor tables - MDB not supported in 64-bit processing, so use 32-bit (\ArcGIS10.4\)!!!! 
- C:\Python27\ArcGIS10.4\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\ParcelUpdate1.py 1>>%LogDir%%theDate%.log 2>&1
+ C:\Python27\ArcGIS10.7\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\ParcelUpdate1.py 1>>%LogDir%%theDate%.log 2>&1
  ::Set up TaxParcel
- C:\Python27\ArcGIS10.4\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\ParcelUpdate2.py 1>>%LogDir%%theDate%.log 2>&1
+ C:\Python27\ArcGIS10.7\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\ParcelUpdate2.py 1>>%LogDir%%theDate%.log 2>&1
  ::Calc null Tax_Payer_Name
- C:\Python27\ArcGIS10.4\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\ParcelUpdate3.py 1>>%LogDir%%theDate%.log 2>&1
+ C:\Python27\ArcGIS10.7\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\ParcelUpdate3.py 1>>%LogDir%%theDate%.log 2>&1
 
  time /T >> %LogDir%%theDate%.log
 
@@ -59,11 +59,11 @@ Echo Step 4 - Replace current parcels with new parcels (46 files)... >> %LogDir%
  time /T >> %LogDir%%theDate%.log
 
 Echo Step 5 - Count number of parcels... >> %LogDir%%theDate%.log
- C:\Python27\ArcGISx6410.4\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\fcCount.py 1>>%LogDir%%theDate%.log 2>&1
+ C:\Python27\ArcGISx6410.7\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\fcCount.py 1>>%LogDir%%theDate%.log 2>&1
  time /T >> %LogDir%%theDate%.log
 
 Echo Step 6 - Email link to log file... >> %LogDir%%theDate%.log
- C:\Python27\ArcGISx6410.4\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\EmailLogLink.py 1>>%LogDir%%theDate%.log 2>&1
+ C:\Python27\ArcGISx6410.7\python.exe \\geobase-win\ced\GADS\R2014\R506\Process\EmailLogLink.py 1>>%LogDir%%theDate%.log 2>&1
  time /T >> %LogDir%%theDate%.log
 
 Echo  See Pierce County Open GeoSpatial Data Portal (Beta) for latest parcels - https://gisdata-piercecowa.opendata.arcgis.com/datasets/tax-parcels >> %LogDir%%theDate%.log
